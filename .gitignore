@@ -1,0 +1,13 @@
+#Client
+client/node_modules
+client/.next
+client/static/images/*
+client/configs.js
+client/.git
+#Server
+server/node_modules
+server/.env
+server/public/uploads/*
+server/public/video-uploads/*
+server/.git
+

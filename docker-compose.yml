@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  # Api Server    
+  code-school-api:
+    container_name: backend
+    # restart: always
+    build: ./server
+    expose:
+      - "3231"
+    volumes: 
+      - ./server:/usr/src/code-school/server
+    command: npm run dev
+    ports: 
+      - "3231:3231"
+  # React Next Frontend
+  client:
+    container_name: client
+    build: ./client
+    depends_on: 
+      - code-school-api
+    expose: 
+      - "3000"
+    ports: 
+      - "3000:3000"
+    volumes: 
+      - ./client:/usr/src/code-school/client
+    command: npm run develop
+  
+
+
+
+
+
+    
+
+  

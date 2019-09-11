@@ -1,0 +1,26 @@
+//UI Types
+export const ALERT_MESSAGE = "ALERT_MESSAGE";
+export const LOADER_SPINNER_ON = "LOADER_SPINNER_ON";
+export const LOADER_SPINNER_OFF = "LOADER_SPINNER_OFF";
+
+//User Types
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const SET_NEW_AVATAR = "SET_NEW_AVATAR";
+
+//Course Types
+export const FEATURE_URL_SET = "FEATURE_URL_SET";
+export const VIDEOS_SET = "VIDEOS_SET";
+export const SET_COURSES = "SET_COURSES";
+export const SET_CATEGORIES = "SET_CATEGORIES";
+export const SET_IMPARTED_COURSES = "SET_IMPARTED_COURSES";
+export const SET_COURSE = "SET_COURSE";
+export const REMOVE_COURSE = "REMOVE_COURSE";
+export const REMOVE_VIDEO = "REMOVE_VIDEO";
+export const SET_PURCHASED_COURSES = "SET_PURCHASED_COURSES";
+export const SET_NEW_COURSE = "SET_NEW_COURSE";
+
+//Cart Types
+export const SET_CART = "SET_CART";
+export const REMOVE_ITEM_FROM_CART = "REMOVE_ITEM_FROM_CART";
+export const SET_ORDER = "SET_ORDER";
+

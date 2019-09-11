@@ -1,0 +1,44 @@
+{
+  "name": "codeschool",
+  "version": "1.0.0",
+  "description": "This is an online courses web application made in React.js, using Next.js framework for server side routing SSR.",
+  "main": "index.js",
+  "engines": {
+    "node": "8.12.0"
+  },
+  "scripts": {
+    "develop":"next",
+    "build": "next build",
+    "dev": "next start",
+    "start:production": "NODE_ENV=production next build && next start",
+    "developing": "concurrently \"npm run dev\" \"npm run server-api\" "
+  },
+  "author": "Vito Madio",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.18.0",
+    "concurrently": "^4.1.0",
+    "css-loader": "^1.0.1",
+    "dotenv": "^6.2.0",
+    "fs": "0.0.1-security",
+    "jwt-decode": "^2.2.0",
+    "next": "^7.0.2",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-draggable": "^3.1.1",
+    "react-form": "^3.5.6",
+    "react-icons": "^3.2.2",
+    "react-image-crop": "^6.0.11",
+    "react-loader-spinner": "^2.1.0",
+    "react-redux": "^5.1.1",
+    "react-star-ratings": "^2.3.0",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-thunk": "^2.3.0",
+    "style-loader": "^0.23.1",
+    "uuid4": "^1.1.4"
+  }
+}
